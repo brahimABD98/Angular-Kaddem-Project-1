@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from 'src/app/core/services/admin/api.service';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { MatDialog, MatDialogRef } from '@angular/material/dialog';
-import { A } from 'chart.js/dist/chunks/helpers.core';
+import { MatDialogRef } from '@angular/material/dialog';
 @Component({
   selector: 'app-add-universite',
   templateUrl: './add-universite.component.html',

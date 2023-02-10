@@ -1,13 +1,10 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ApiService } from 'src/app/core/services/admin/api.service';
 import { MatDialog } from '@angular/material/dialog';
 import { EditContratComponent } from './edit-contrat/edit-contrat.component';
 import { AddContratComponent } from './add-contrat/add-contrat.component';
-import { co } from 'chart.js/dist/chunks/helpers.core';
 import { FormControl } from '@angular/forms';
 import { FloatLabelType } from '@angular/material/form-field';
-import { DepartDetailsStudComponent } from '../etudiant/depart-details-stud/depart-details-stud.component';
-import { ContratDetailsStudComponent } from '../etudiant/contrat-details-stud/contrat-details-stud.component';
 import { jsPDF } from 'jspdf';
 
 @Component({

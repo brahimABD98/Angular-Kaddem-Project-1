@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ApiService } from 'src/app/core/services/admin/api.service';
 import {MatDialog, MatDialogRef} from "@angular/material/dialog";
-import {an} from "chart.js/dist/chunks/helpers.core";
-import {ContratComponent} from "../../contrat/contrat.component";
 
 @Component({
   selector: 'app-assign-etudiant-to-departement',

@@ -1,5 +1,4 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { c } from 'chart.js/dist/chunks/helpers.core';
 
 @Pipe({ name: 'searchTarget' })
 export class SearchCustomPipe implements PipeTransform {
